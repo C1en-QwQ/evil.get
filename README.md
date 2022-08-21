@@ -12,7 +12,7 @@
 * `Promise.then` 在周日时有10%不会注册。
 * `JSON.stringify` 会把`I`(大写字母I)变成`l`(小写字母L)。
 * `Date.getTime()` 的结果总是会慢一个小时。
-* `localStorage.getItem` 有5%几率返回空字符串。
+* `localStorage.getItem` 有5%几率返回空字符串。  
 我们开始解读(
 ```
 const _includes = Array.prototype.includes;
